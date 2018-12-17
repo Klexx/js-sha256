@@ -23,6 +23,13 @@ var sha256 = require('tiny-sha256');
 
 var jsCode = sha256.code + 'alert(sha256("hello!"));';
 ```
+## In TypeScript
+
+```typescript
+import { sha256 }  from "/some/path/js-sha256/sha256.js";
+
+sha256("some string");
+```
 
 ## License
 
